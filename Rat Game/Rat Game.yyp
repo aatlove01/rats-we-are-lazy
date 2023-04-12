@@ -34,10 +34,18 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"_3_NightTwo","path":"rooms/_3_NightTwo/_3_NightTwo.yy",},},
+    {"id":{"name":"_5_EndScreen","path":"rooms/_5_EndScreen/_5_EndScreen.yy",},},
+    {"id":{"name":"_4_NightThree","path":"rooms/_4_NightThree/_4_NightThree.yy",},},
+    {"id":{"name":"_2_NightOne","path":"rooms/_2_NightOne/_2_NightOne.yy",},},
+    {"id":{"name":"_1_Start_Screen","path":"rooms/_1_Start_Screen/_1_Start_Screen.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"_1_Start_Screen","path":"rooms/_1_Start_Screen/_1_Start_Screen.yy",},},
+    {"roomId":{"name":"_2_NightOne","path":"rooms/_2_NightOne/_2_NightOne.yy",},},
+    {"roomId":{"name":"_3_NightTwo","path":"rooms/_3_NightTwo/_3_NightTwo.yy",},},
+    {"roomId":{"name":"_4_NightThree","path":"rooms/_4_NightThree/_4_NightThree.yy",},},
+    {"roomId":{"name":"_5_EndScreen","path":"rooms/_5_EndScreen/_5_EndScreen.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
