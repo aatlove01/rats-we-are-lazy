@@ -22,10 +22,11 @@ if(keyboard_check(vk_right)) {
 	moved = true
 }
 if(moved){
-	newDir = (arctan2(x_dir, y_dir) * 180 / pi) + 90;
-	//directionFacing += angle_difference(directionFacing, newDir) * turnSpeed;
-	directionFacing = lerp(directionFacing, newDir, turnSpeed);
+	newDir = point_direction(0,0,x_dir,y_dir);
+	//show_debug_message(angle_difference(directionFacing, di))
+	directionFacing += angle_difference(newDir, directionFacing) * turnSpeed;
+	//directionFacing = lerp(directionFacing, newDir, turnSpeed);
 }
-dt = delta_time / 1000000
+dt = delta_time / 100000
 y += y_dir * moveSpeed * dt
 x += x_dir * moveSpeed * dt
