@@ -17,9 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"_3_NightTwo","order":2,"path":"rooms/_3_NightTwo/_3_NightTwo.yy",},
-    {"name":"_5_EndScreen","order":4,"path":"rooms/_5_EndScreen/_5_EndScreen.yy",},
-    {"name":"_4_NightThree","order":3,"path":"rooms/_4_NightThree/_4_NightThree.yy",},
-    {"name":"_2_NightOne","order":1,"path":"rooms/_2_NightOne/_2_NightOne.yy",},
+    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"obj_collide","order":1,"path":"objects/obj_collide/obj_collide.yy",},
   ],
 }
