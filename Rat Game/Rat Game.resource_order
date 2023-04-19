@@ -21,5 +21,6 @@
     {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"obj_collide","order":1,"path":"objects/obj_collide/obj_collide.yy",},
     {"name":"Camera","order":2,"path":"objects/Camera/Camera.yy",},
+    {"name":"rm_cameraTest","order":1,"path":"rooms/rm_cameraTest/rm_cameraTest.yy",},
   ],
 }
