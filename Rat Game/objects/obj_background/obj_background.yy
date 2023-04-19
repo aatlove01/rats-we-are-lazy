@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Map",
+    "path": "sprites/Map/Map.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

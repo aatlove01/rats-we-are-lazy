@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "ratAnimated",
+    "path": "sprites/ratAnimated/ratAnimated.yy",
   },
   "spriteMaskId": null,
   "visible": true,
