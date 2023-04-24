@@ -22,7 +22,7 @@ if(keyboard_check(vk_right)) {
 }
 
 if(moved){
-	newDir = point_direction(0,0,x_dir,y_dir);
+	newDir = point_direction(0,0,x_dir,y_dir) + 180;
 	directionFacing += angle_difference(newDir, directionFacing) * turnSpeed
 	dt = delta_time / 100000
 	new_y = y + y_dir * moveSpeed * dt

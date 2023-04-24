@@ -1,0 +1,5 @@
+Ian tasks:
+	figure out camera stuff
+	figure out trash eating
+	- particle effect
+	- change trash sprite to torn up

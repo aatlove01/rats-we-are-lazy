@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "Map",
+    "path": "sprites/Map/Map.yy",
   },
   "spriteMaskId": null,
   "visible": true,
