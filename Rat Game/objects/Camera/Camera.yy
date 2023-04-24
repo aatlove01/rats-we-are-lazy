@@ -34,5 +34,5 @@
     "path": "sprites/CamIcon/CamIcon.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
