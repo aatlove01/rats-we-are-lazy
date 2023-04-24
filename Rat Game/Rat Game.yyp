@@ -34,10 +34,12 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"obj_trashbag","path":"objects/obj_trashbag/obj_trashbag.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rat","path":"sprites/rat/rat.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"IanNotes","path":"notes/IanNotes/IanNotes.yy",},},
+    {"id":{"name":"TrashbagUntouched","path":"sprites/TrashbagUntouched/TrashbagUntouched.yy",},},
     {"id":{"name":"Map","path":"sprites/Map/Map.yy",},},
     {"id":{"name":"obj_collide","path":"objects/obj_collide/obj_collide.yy",},},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},},
