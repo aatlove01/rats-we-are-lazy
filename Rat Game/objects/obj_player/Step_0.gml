@@ -36,10 +36,12 @@ if(dashingTimer > 0){
 	new_x -= cos(degtorad(directionFacing)) * moveSpeed * 2 * dt;
 	dashingTimer -= dt;
 	moved = false;
+	dashDelay = 3;
 }
 else {
+	dashDelay -= dt;
 	sprite = ratAnimated;
-	if(keyboard_check(ord("Z"))){
+	if(dashDelay <= 0 && keyboard_check(ord("Z"))){
 		dashingTimer = dashDuration;
 	}
 }

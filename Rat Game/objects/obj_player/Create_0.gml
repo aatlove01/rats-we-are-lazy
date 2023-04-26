@@ -8,5 +8,6 @@ isDead = false
 spriteIdx = 0
 dashingTimer = 0;
 dashDuration = 3;
+dashDelay = 3;
 //cam = camera_create()
 //view_set_camera(0, cam)

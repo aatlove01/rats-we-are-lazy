@@ -64,6 +64,7 @@
     {"id":{"name":"rm_night_results","path":"rooms/rm_night_results/rm_night_results.yy",},},
     {"id":{"name":"CamIcon","path":"sprites/CamIcon/CamIcon.yy",},},
     {"id":{"name":"obj_trashcan_titleScreen","path":"objects/obj_trashcan_titleScreen/obj_trashcan_titleScreen.yy",},},
+    {"id":{"name":"fnt_Game_default","path":"fonts/fnt_Game_default/fnt_Game_default.yy",},},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
     {"id":{"name":"obj_player_titleScreen","path":"objects/obj_player_titleScreen/obj_player_titleScreen.yy",},},
     {"id":{"name":"TitleScreen","path":"objects/TitleScreen/TitleScreen.yy",},},
