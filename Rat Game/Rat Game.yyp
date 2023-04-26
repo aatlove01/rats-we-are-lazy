@@ -34,6 +34,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"DeadRat","path":"sprites/DeadRat/DeadRat.yy",},},
     {"id":{"name":"obj_trashbag","path":"objects/obj_trashbag/obj_trashbag.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rat","path":"sprites/rat/rat.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"TrashbagUntouched","path":"sprites/TrashbagUntouched/TrashbagUntouched.yy",},},
     {"id":{"name":"person_4","path":"sprites/person_4/person_4.yy",},},
     {"id":{"name":"obj_collide","path":"objects/obj_collide/obj_collide.yy",},},
+    {"id":{"name":"obj_person","path":"objects/obj_person/obj_person.yy",},},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},},
     {"id":{"name":"rm_night_results","path":"rooms/rm_night_results/rm_night_results.yy",},},
     {"id":{"name":"CamIcon","path":"sprites/CamIcon/CamIcon.yy",},},

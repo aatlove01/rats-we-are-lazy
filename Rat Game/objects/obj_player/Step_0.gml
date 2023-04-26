@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(isDead){
+	sprite = DeadRat
+	return
+}
 x_dir = 0
 y_dir = 0
 moved = false
@@ -25,6 +29,8 @@ if(moved){
 	newDir = point_direction(0,0,x_dir,y_dir) + 180;
 	directionFacing += angle_difference(newDir, directionFacing) * turnSpeed
 	dt = delta_time / 100000
+	spriteIdx += dt;
+	
 	new_y = y + y_dir * moveSpeed * dt
 	new_x = x + x_dir * moveSpeed * dt
 	if(!place_meeting(new_x,y,obj_collide)){

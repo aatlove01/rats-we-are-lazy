@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"DeadRat","order":15,"path":"sprites/DeadRat/DeadRat.yy",},
     {"name":"obj_trashbag","order":4,"path":"objects/obj_trashbag/obj_trashbag.yy",},
     {"name":"rat","order":1,"path":"sprites/rat/rat.yy",},
     {"name":"obj_manager","order":4,"path":"objects/obj_manager/obj_manager.yy",},
@@ -34,6 +35,7 @@
     {"name":"TrashbagUntouched","order":13,"path":"sprites/TrashbagUntouched/TrashbagUntouched.yy",},
     {"name":"person_4","order":11,"path":"sprites/person_4/person_4.yy",},
     {"name":"obj_collide","order":1,"path":"objects/obj_collide/obj_collide.yy",},
+    {"name":"obj_person","order":9,"path":"objects/obj_person/obj_person.yy",},
     {"name":"obj_background","order":3,"path":"objects/obj_background/obj_background.yy",},
     {"name":"rm_night_results","order":2,"path":"rooms/rm_night_results/rm_night_results.yy",},
     {"name":"CamIcon","order":5,"path":"sprites/CamIcon/CamIcon.yy",},
