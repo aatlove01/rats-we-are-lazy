@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+dt = delta_time / 100000
 
 if(isDead){
 	sprite = DeadRat
@@ -7,7 +8,10 @@ if(isDead){
 }
 x_dir = 0
 y_dir = 0
+new_x = x
+new_y = y
 moved = false
+
 if(keyboard_check(vk_up)) {
 	y_dir -= 1
 	moved = true
@@ -25,18 +29,32 @@ if(keyboard_check(vk_right)) {
 	moved = true
 }
 
+
+if(dashingTimer > 0){
+	sprite = JumpingRat;
+	new_y += sin(degtorad(directionFacing)) * moveSpeed * 2 * dt;
+	new_x -= cos(degtorad(directionFacing)) * moveSpeed * 2 * dt;
+	dashingTimer -= dt;
+	moved = false;
+}
+else {
+	sprite = ratAnimated;
+	if(keyboard_check(ord("Z"))){
+		dashingTimer = dashDuration;
+	}
+}
+
 if(moved){
 	newDir = point_direction(0,0,x_dir,y_dir) + 180;
 	directionFacing += angle_difference(newDir, directionFacing) * turnSpeed
-	dt = delta_time / 100000
 	spriteIdx += dt;
 	
 	new_y = y + y_dir * moveSpeed * dt
 	new_x = x + x_dir * moveSpeed * dt
-	if(!place_meeting(new_x,y,obj_collide)){
-		x = new_x
-	}
-	if(!place_meeting(x,new_y,obj_collide)){
-		y = new_y
-	}
+}
+if(!place_meeting(new_x,y,obj_collide)){
+	x = new_x
+}
+if(!place_meeting(x,new_y,obj_collide)){
+	y = new_y
 }

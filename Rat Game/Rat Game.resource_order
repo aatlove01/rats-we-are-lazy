@@ -34,6 +34,7 @@
     {"name":"trashCan","order":13,"path":"sprites/trashCan/trashCan.yy",},
     {"name":"Background","order":15,"path":"sprites/Background/Background.yy",},
     {"name":"TrashbagUntouched","order":12,"path":"sprites/TrashbagUntouched/TrashbagUntouched.yy",},
+    {"name":"JumpingRat","order":16,"path":"sprites/JumpingRat/JumpingRat.yy",},
     {"name":"person_4","order":10,"path":"sprites/person_4/person_4.yy",},
     {"name":"obj_collide","order":1,"path":"objects/obj_collide/obj_collide.yy",},
     {"name":"obj_person","order":8,"path":"objects/obj_person/obj_person.yy",},
