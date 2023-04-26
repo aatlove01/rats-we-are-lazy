@@ -3,4 +3,8 @@ if(!destroyed && playerInTrigger){
 	draw_text(x, y - 50, "E to tear up trash bag");
 }
 
-draw_sprite_ext(trashSprite, 0, x, y, 0.5,0.5, 0, c_white, 1);
+if(trashSprite == TrashbagDestroyed) {
+	draw_sprite_ext(trashSprite, variation, x, y, 1,1, 0, c_white, 1);
+} else {
+	draw_sprite_ext(trashSprite, 0, x, y, 1,1, 0, c_white, 1);
+}

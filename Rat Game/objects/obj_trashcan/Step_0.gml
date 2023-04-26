@@ -6,6 +6,5 @@ if(!destroyed && playerInTrigger && keyboard_check(ord("E"))){
 	destroyed = true;
 	obj_manager.food_gathered+=1;
 	show_debug_message(obj_manager.food_gathered);
-	trashSprite = TrashbagDestroyed;
-	variation = irandom(1);
+
 }
