@@ -1,7 +1,7 @@
 if(!destroyed && playerInTrigger){
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_Game_default);
-	draw_text(x, y - 50, "E to scavenge in the trash");
+	draw_text(x, y - 50, "X to scavenge in the trash");
 }
 
 if(trashSprite == TrashbagDestroyed) {
