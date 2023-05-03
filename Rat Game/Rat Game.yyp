@@ -39,6 +39,7 @@
     {"id":{"name":"rat","path":"sprites/rat/rat.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"person_1","path":"sprites/person_1/person_1.yy",},},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"person_2","path":"sprites/person_2/person_2.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},

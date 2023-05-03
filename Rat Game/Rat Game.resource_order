@@ -21,6 +21,7 @@
     {"name":"rat","order":1,"path":"sprites/rat/rat.yy",},
     {"name":"obj_manager","order":4,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"person_1","order":8,"path":"sprites/person_1/person_1.yy",},
+    {"name":"Sprite15","order":15,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
     {"name":"person_2","order":9,"path":"sprites/person_2/person_2.yy",},
     {"name":"Sprite2","order":4,"path":"sprites/Sprite2/Sprite2.yy",},

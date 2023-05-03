@@ -7,4 +7,5 @@ if room == rm_night_results
 {
 	draw_text(room_width/2, room_height/2 + 50, "Food Reserves: " + string(reserves))
 	draw_text(room_width/2, room_height/2, "Food Gathered: " + string(food_gathered))
+	draw_text(room_width/2, room_height/2 - 100, "Trash Gathered: " + string(trash_collected))
 }
