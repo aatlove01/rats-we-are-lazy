@@ -47,6 +47,7 @@
     {"name":"obj_person","order":8,"path":"objects/obj_person/obj_person.yy",},
     {"name":"obj_background","order":3,"path":"objects/obj_background/obj_background.yy",},
     {"name":"rm_night_results","order":2,"path":"rooms/rm_night_results/rm_night_results.yy",},
+    {"name":"rm_game_over","order":4,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"CamIcon","order":5,"path":"sprites/CamIcon/CamIcon.yy",},
     {"name":"Camera","order":2,"path":"objects/Camera/Camera.yy",},
     {"name":"obj_trash","order":6,"path":"objects/obj_trash/obj_trash.yy",},

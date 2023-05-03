@@ -17,8 +17,10 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 	}
 	nights_survived++
 	if max_difficulty < 10 difficulty++
+	{
 	room_goto(rm_mainTester)
 	alarm[0] = 1800
+	}
 }
 
 if room == rm_game_over && keyboard_check_pressed(vk_space) room_goto(rm_start)
