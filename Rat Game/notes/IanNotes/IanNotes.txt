@@ -5,9 +5,14 @@ gameplay:
 		- starting + ending the night
 			- grates
 	- more enemy types
+		- dogs
 	- dashing
 	- scattering trash
 	- sound
+		- footsteps
+	- cars
+		- other
+		- garbage trucks
 Night Loop:
 	- User interface stuff
 	- scaling difficulty
