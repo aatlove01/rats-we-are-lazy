@@ -2,7 +2,7 @@ TASKS
 gameplay:
 	- progressing thru the night
 		- phases
-		- starting + ending the night
+		- starting + ending the night - COMPLETE
 			- grates
 	- more enemy types
 		- dogs
