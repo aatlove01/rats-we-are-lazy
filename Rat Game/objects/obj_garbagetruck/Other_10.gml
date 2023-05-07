@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-carSpeed = 3
-sprite = choose(Car_1, Car_3)
-alarm[0] = irandom_range(0, 1000)
+with (other) path_start(path, carSpeed, path_action_stop, true)

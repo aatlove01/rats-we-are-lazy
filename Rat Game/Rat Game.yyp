@@ -38,6 +38,7 @@
     {"id":{"name":"obj_trashbag","path":"objects/obj_trashbag/obj_trashbag.yy",},},
     {"id":{"name":"trashCan_titleScreen","path":"sprites/trashCan_titleScreen/trashCan_titleScreen.yy",},},
     {"id":{"name":"obj_person_titleScreen","path":"objects/obj_person_titleScreen/obj_person_titleScreen.yy",},},
+    {"id":{"name":"obj_garbagetruck","path":"objects/obj_garbagetruck/obj_garbagetruck.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rat","path":"sprites/rat/rat.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},

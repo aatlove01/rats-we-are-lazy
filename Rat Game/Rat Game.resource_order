@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"DeadRat","order":14,"path":"sprites/DeadRat/DeadRat.yy",},
     {"name":"obj_trashbag","order":5,"path":"objects/obj_trashbag/obj_trashbag.yy",},
+    {"name":"obj_garbagetruck","order":15,"path":"objects/obj_garbagetruck/obj_garbagetruck.yy",},
     {"name":"rat","order":1,"path":"sprites/rat/rat.yy",},
     {"name":"obj_manager","order":4,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"person_1","order":7,"path":"sprites/person_1/person_1.yy",},
