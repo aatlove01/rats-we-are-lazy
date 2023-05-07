@@ -10,3 +10,7 @@ if path_position >= 1{
 if place_meeting(x,y,obj_player){
 	obj_player.isDead = true
 }
+
+if place_meeting(x,y,obj_car1){
+	alarm[0] = 1;
+}
