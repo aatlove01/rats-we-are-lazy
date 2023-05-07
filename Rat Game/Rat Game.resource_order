@@ -37,6 +37,7 @@
     {"name":"Map","order":3,"path":"sprites/Map/Map.yy",},
     {"name":"obj_dog2","order":11,"path":"objects/obj_dog2/obj_dog2.yy",},
     {"name":"TrashbagDestroyed","order":6,"path":"sprites/TrashbagDestroyed/TrashbagDestroyed.yy",},
+    {"name":"DashingRat","order":21,"path":"sprites/DashingRat/DashingRat.yy",},
     {"name":"Car_3","order":19,"path":"sprites/Car_3/Car_3.yy",},
     {"name":"Map2","order":11,"path":"sprites/Map2/Map2.yy",},
     {"name":"Car_2","order":20,"path":"sprites/Car_2/Car_2.yy",},

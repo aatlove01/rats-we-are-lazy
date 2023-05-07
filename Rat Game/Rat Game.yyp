@@ -60,6 +60,7 @@
     {"id":{"name":"Map","path":"sprites/Map/Map.yy",},},
     {"id":{"name":"obj_dog2","path":"objects/obj_dog2/obj_dog2.yy",},},
     {"id":{"name":"TrashbagDestroyed","path":"sprites/TrashbagDestroyed/TrashbagDestroyed.yy",},},
+    {"id":{"name":"DashingRat","path":"sprites/DashingRat/DashingRat.yy",},},
     {"id":{"name":"Car_3","path":"sprites/Car_3/Car_3.yy",},},
     {"id":{"name":"Map2","path":"sprites/Map2/Map2.yy",},},
     {"id":{"name":"Car_2","path":"sprites/Car_2/Car_2.yy",},},
