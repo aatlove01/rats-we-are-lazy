@@ -19,7 +19,7 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 	if max_difficulty < 10 difficulty++
 	{
 	room_goto(rm_mainTester)
-	alarm[0] = 1800
+	alarm[0] = 100//1800
 	}
 }
 
