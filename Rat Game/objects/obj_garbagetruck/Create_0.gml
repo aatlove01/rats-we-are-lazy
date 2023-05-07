@@ -2,4 +2,5 @@
 // You can write your code in this editor
 minTrashDist = 100
 carSpeed = 2
+facingDirection = 0
 path = choose(CarPath, CarPath2, CarPath3, CarPath4)
