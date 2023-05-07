@@ -1,3 +1,6 @@
+
+global.lastTrashbagInPlayer = pointer_null;
+
 destroyed = false;
 playerInTrigger = false;
 trashSprite = TrashbagUntouched;

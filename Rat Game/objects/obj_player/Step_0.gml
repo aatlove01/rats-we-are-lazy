@@ -31,7 +31,7 @@ if(keyboard_check(vk_right)) {
 
 
 if(dashingTimer > 0){
-	sprite = JumpingRat;
+	sprite = DeadRat;
 	new_y += sin(degtorad(directionFacing)) * moveSpeed * 3 * dt;
 	new_x -= cos(degtorad(directionFacing)) * moveSpeed * 3 * dt;
 	dashingTimer -= dt;

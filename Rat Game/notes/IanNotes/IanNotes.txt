@@ -6,7 +6,8 @@ gameplay:
 			- grates
 	- more enemy types
 		- dogs
-	- dashing
+	- dashing - COMPLETE
+		- need dashing sprite - INCOMPLETE
 	- scattering trash
 	- sound
 		- footsteps
