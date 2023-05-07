@@ -14,4 +14,14 @@ if(!destroyed && playerInTrigger && keyboard_check(ord("X"))){
 	show_debug_message(obj_manager.food_gathered);
 	trashSprite = TrashbagDestroyed;
 	variation = irandom(1);
+	if canPlaySound == true
+	{
+		canPlaySound = false
+		random_rip = irandom_range(1,4)
+		random_pitch = random_range(0.75,1.25)
+		if random_rip == 1 audio_play_sound(snd_trash_rip_1, 0, false, 1, 0, random_pitch)
+		else if random_rip == 2 audio_play_sound(snd_trash_rip_2, 0, false, 1, 0, random_pitch)
+		else if random_rip == 3 audio_play_sound(snd_trash_rip_3, 0, false, 1, 0, random_pitch)
+		else if random_rip == 4 audio_play_sound(snd_trash_rip_4, 0, false, 1, 0, random_pitch)
+	}
 }

@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"DeadRat","order":14,"path":"sprites/DeadRat/DeadRat.yy",},
+    {"name":"snd_trash_rip_2","order":4,"path":"sounds/snd_trash_rip_2/snd_trash_rip_2.yy",},
     {"name":"obj_trashbag","order":5,"path":"objects/obj_trashbag/obj_trashbag.yy",},
     {"name":"obj_garbagetruck","order":15,"path":"objects/obj_garbagetruck/obj_garbagetruck.yy",},
     {"name":"rat","order":1,"path":"sprites/rat/rat.yy",},
@@ -29,6 +30,7 @@
     {"name":"Sprite2","order":4,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"obj_car1","order":12,"path":"objects/obj_car1/obj_car1.yy",},
     {"name":"obj_trashcan","order":7,"path":"objects/obj_trashcan/obj_trashcan.yy",},
+    {"name":"snd_trash_rip_3","order":2,"path":"sounds/snd_trash_rip_3/snd_trash_rip_3.yy",},
     {"name":"obj_car3","order":14,"path":"objects/obj_car3/obj_car3.yy",},
     {"name":"obj_testMap","order":9,"path":"objects/obj_testMap/obj_testMap.yy",},
     {"name":"person_3","order":9,"path":"sprites/person_3/person_3.yy",},
@@ -57,6 +59,7 @@
     {"name":"obj_trash","order":6,"path":"objects/obj_trash/obj_trash.yy",},
     {"name":"rm_mainTester","order":3,"path":"rooms/rm_mainTester/rm_mainTester.yy",},
     {"name":"Car_1","order":18,"path":"sprites/Car_1/Car_1.yy",},
+    {"name":"snd_trash_rip_4","order":3,"path":"sounds/snd_trash_rip_4/snd_trash_rip_4.yy",},
     {"name":"Dog_2","order":17,"path":"sprites/Dog_2/Dog_2.yy",},
     {"name":"ratAnimated","order":2,"path":"sprites/ratAnimated/ratAnimated.yy",},
   ],
