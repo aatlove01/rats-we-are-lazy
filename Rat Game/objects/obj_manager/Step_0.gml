@@ -17,9 +17,13 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 	}
 	nights_survived++
 	if difficulty < max_difficulty difficulty++
-	{
-	room_goto(rm_mainTester)
-	alarm[0] = garbage_pickup_time
+
+
+	if reserves < 0{
+		room_goto(rm_game_over)
+	}else {
+		room_goto(rm_mainTester)
+		alarm[0] = garbage_pickup_time
 	}
 }
 
