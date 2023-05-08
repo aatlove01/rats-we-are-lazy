@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "spr_grate",
+    "path": "sprites/spr_grate/spr_grate.yy",
   },
   "spriteMaskId": null,
   "visible": true,
