@@ -26,7 +26,7 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 	if reserves < 0{
 		room_goto(rm_game_over)
 	}else {
-		room_goto(rm_mainTester)
+		room_goto(rm_CityFinal)
 		alarm[0] = garbage_pickup_time
 	}
 }
