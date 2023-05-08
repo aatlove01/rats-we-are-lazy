@@ -18,6 +18,8 @@ blink_alpha = 1
 invulnerableBlinkFrames = 10
 invulnerableBlinkCounter = invulnerableBlinkFrames
 
+holding = false
+
 with (obj_manager) {
 	reserves += food_gathered
 	food_gathered = 0
