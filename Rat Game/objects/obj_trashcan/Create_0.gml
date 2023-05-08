@@ -1,3 +1,11 @@
-destroyed = false;
-playerInTrigger = false;
-trashSprite = trashCan;
+//generates normal distribution random number using box-muller with mean mu and std sigma
+function Random_Normal(mu, sigma){
+	return sigma * sqrt(-2*ln(random(1))) * cos(2*pi*random(1)) + mu
+}
+
+destroyed = false
+playerInTrigger = false
+trashSprite = trashCan
+instance_deactivate_object(self)
+mean_spawn_time = obj_manager.difficulty/obj_manager.max_difficulty * obj_manager.garbage_pickup_time
+alarm[0] = max(Random_Normal(mean_spawn_time, mean_spawn_time/2), 0)

@@ -12,8 +12,8 @@ gameplay:
 	- sound
 		- footsteps
 	- cars - COMPLETE
-		- other
-		- garbage trucks
+		- other - COMPLETE
+		- garbage trucks - COMPLETE
 Night Loop:
 	- User interface stuff
 	- scaling difficulty
