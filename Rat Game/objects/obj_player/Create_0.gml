@@ -15,7 +15,11 @@ dashDelay = 3;
 maxHP = 5
 currentHP = maxHP
 blinkBlendNormal = true
-//cam = camera_create()
-//view_set_camera(0, cam)
 
-show_debug_message(obj_manager.difficulty)
+with (obj_manager) {
+	reserves += food_gathered
+	food_gathered = 0
+	reserves -= 5
+	other.x = spawn_x
+	other.y = spawn_y
+}

@@ -65,6 +65,7 @@
     {"name":"Camera","order":2,"path":"objects/Camera/Camera.yy",},
     {"name":"spr_trash_4","order":27,"path":"sprites/spr_trash_4/spr_trash_4.yy",},
     {"name":"spr_trash_","order":28,"path":"sprites/spr_trash_/spr_trash_.yy",},
+    {"name":"obj_grate","order":17,"path":"objects/obj_grate/obj_grate.yy",},
     {"name":"obj_trash","order":6,"path":"objects/obj_trash/obj_trash.yy",},
     {"name":"rm_mainTester","order":3,"path":"rooms/rm_mainTester/rm_mainTester.yy",},
     {"name":"Car_1","order":18,"path":"sprites/Car_1/Car_1.yy",},

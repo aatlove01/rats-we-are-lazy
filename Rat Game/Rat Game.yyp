@@ -90,6 +90,7 @@
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
     {"id":{"name":"spr_trash_4","path":"sprites/spr_trash_4/spr_trash_4.yy",},},
     {"id":{"name":"spr_trash_","path":"sprites/spr_trash_/spr_trash_.yy",},},
+    {"id":{"name":"obj_grate","path":"objects/obj_grate/obj_grate.yy",},},
     {"id":{"name":"obj_player_titleScreen","path":"objects/obj_player_titleScreen/obj_player_titleScreen.yy",},},
     {"id":{"name":"TitleScreen","path":"objects/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},

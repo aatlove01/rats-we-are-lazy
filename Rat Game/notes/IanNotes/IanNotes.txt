@@ -1,7 +1,7 @@
 TASKS
 gameplay:
-	- progressing thru the night
-		- phases
+	- progressing thru the night - COMPLETE
+		- phases - COMPLETE
 		- starting + ending the night - COMPLETE
 			- grates
 	- more enemy types
@@ -16,4 +16,4 @@ gameplay:
 		- garbage trucks - COMPLETE
 Night Loop:
 	- User interface stuff
-	- scaling difficulty
+	- scaling difficulty - COMPLETE
