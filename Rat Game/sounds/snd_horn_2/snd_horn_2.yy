@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_trash_rip_3",
+  "name": "snd_horn_2",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.051633,
+  "duration": 1.00644,
   "parent": {
-    "name": "Trash Bag",
-    "path": "folders/Sounds/Trash Bag.yy",
+    "name": "Car",
+    "path": "folders/Sounds/Car.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_trash_rip_3.wav",
+  "soundFile": "snd_horn_2.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -14,6 +14,9 @@ dashDelay = 3;
 maxHP = 5
 currentHP = maxHP
 playerDeathTimer = false
+blink_alpha = 1
+invulnerableBlinkFrames = 10
+invulnerableBlinkCounter = invulnerableBlinkFrames
 
 with (obj_manager) {
 	reserves += food_gathered

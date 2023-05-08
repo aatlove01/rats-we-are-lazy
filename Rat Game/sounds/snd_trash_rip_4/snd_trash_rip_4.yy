@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 0.473356,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Trash Bag",
+    "path": "folders/Sounds/Trash Bag.yy",
   },
   "preload": false,
   "sampleRate": 44100,
