@@ -17,8 +17,7 @@ playerDeathTimer = false
 blink_alpha = 1
 invulnerableBlinkFrames = 10
 invulnerableBlinkCounter = invulnerableBlinkFrames
-holding = false;
-holdArray = [];
+
 with (obj_manager) {
 	reserves += food_gathered
 	food_gathered = 0
