@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if !show_tooltip { return }
 with (obj_player) {
 	if place_meeting(x,y,other){
 		draw_set_halign(fa_center)
