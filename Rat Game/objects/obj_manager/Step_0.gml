@@ -1,6 +1,10 @@
 //Debug
 #region
-if keyboard_check_pressed(ord("3")) room_goto(rm_night_results)
+if keyboard_check_pressed(ord("3")) 
+{
+	reserves += food_gathered + trash_collected
+	room_goto(rm_night_results)
+}
 
 #endregion
 

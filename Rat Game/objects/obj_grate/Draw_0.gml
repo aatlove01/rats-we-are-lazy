@@ -7,6 +7,7 @@ with (obj_player) {
 		draw_set_font(fnt_Game)
 		draw_text(other.x, other.y - 50, "Press X to sleep for the night")
 		if keyboard_check_pressed(ord("X")){
+			reserves += food_gathered + trash_collected
 			room_goto(rm_night_results)
 			with (obj_manager) {
 				spawn_x = other.x

@@ -4,4 +4,4 @@ sprite = choose(Dog_1, Dog_2)
 directionFacing = random_range(0,360)
 spriteIdx = 0
 viewDistance = 150
-walkSpeed = 1.5
+walkSpeed = 2
