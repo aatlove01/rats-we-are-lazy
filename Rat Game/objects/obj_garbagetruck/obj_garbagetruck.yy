@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Car_2",
-    "path": "sprites/Car_2/Car_2.yy",
+    "name": "spr_garbagetruck_2",
+    "path": "sprites/spr_garbagetruck_2/spr_garbagetruck_2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

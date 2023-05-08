@@ -2,10 +2,21 @@
 // You can write your code in this editor
 dt = delta_time / 100000
 
-if(isDead){
+if(isHit){
+	isHit = false
+	if isInvulnerable == false{
+		currentHP--
+		isInvulnerable = true
+		alarm[1] = iFrames
+	}
+}
+if(currentHP <= 0){
 	sprite = DeadRat
+	alarm[0] = 180
 	return
 }
+
+#region Player Movement
 x_dir = 0
 y_dir = 0
 new_x = x
@@ -31,7 +42,7 @@ if(keyboard_check(vk_right)) {
 
 
 if(dashingTimer > 0){
-	sprite = DeadRat;
+	sprite = DashingRat;
 	new_y += sin(degtorad(directionFacing)) * moveSpeed * 3 * dt;
 	new_x -= cos(degtorad(directionFacing)) * moveSpeed * 3 * dt;
 	dashingTimer -= dt;
@@ -60,3 +71,5 @@ if(!place_meeting(new_x,y,obj_collide)){
 if(!place_meeting(x,new_y,obj_collide)){
 	y = new_y
 }
+#endregion
+
