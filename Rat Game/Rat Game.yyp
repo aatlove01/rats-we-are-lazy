@@ -99,6 +99,7 @@
     {"id":{"name":"snd_horn_1","path":"sounds/snd_horn_1/snd_horn_1.yy",},},
     {"id":{"name":"person_4","path":"sprites/person_4/person_4.yy",},},
     {"id":{"name":"obj_collide","path":"objects/obj_collide/obj_collide.yy",},},
+    {"id":{"name":"objSHOWGRATE","path":"objects/objSHOWGRATE/objSHOWGRATE.yy",},},
     {"id":{"name":"fnt_Game","path":"fonts/fnt_Game/fnt_Game.yy",},},
     {"id":{"name":"obj_car2","path":"objects/obj_car2/obj_car2.yy",},},
     {"id":{"name":"obj_person","path":"objects/obj_person/obj_person.yy",},},

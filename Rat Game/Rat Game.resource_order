@@ -24,6 +24,7 @@
     {"name":"obj_dog1","order":13,"path":"objects/obj_dog1/obj_dog1.yy",},
     {"name":"sprTitleTitle","order":3,"path":"sprites/sprTitleTitle/sprTitleTitle.yy",},
     {"name":"obj_collide","order":14,"path":"objects/obj_collide/obj_collide.yy",},
+    {"name":"objSHOWGRATE","order":24,"path":"objects/objSHOWGRATE/objSHOWGRATE.yy",},
     {"name":"obj_car2","order":15,"path":"objects/obj_car2/obj_car2.yy",},
     {"name":"obj_person","order":16,"path":"objects/obj_person/obj_person.yy",},
     {"name":"obj_background","order":17,"path":"objects/obj_background/obj_background.yy",},

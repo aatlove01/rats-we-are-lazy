@@ -29,7 +29,7 @@ if(keyboard_check((ord("C")))) {
 
 	if (keyboard_check_released((ord("C")))) {
 		//grate
-		if(place_meeting(x,y,obj_grate)){
+		if(distance_to_object(obj_grate) < 40){
 			obj_manager.trash_collected +=1;
 			instance_destroy(self)
 		}
