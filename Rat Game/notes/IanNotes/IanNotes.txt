@@ -1,5 +1,19 @@
-Ian tasks:
-	figure out camera stuff
-	figure out trash eating
-	- particle effect
-	- change trash sprite to torn up
+TASKS
+gameplay:
+	- progressing thru the night - COMPLETE
+		- phases - COMPLETE
+		- starting + ending the night - COMPLETE
+			- grates
+	- more enemy types
+		- dogs
+	- dashing - COMPLETE
+		- need dashing sprite - INCOMPLETE
+	- scattering trash
+	- sound
+		- footsteps
+	- cars - COMPLETE
+		- other - COMPLETE
+		- garbage trucks - COMPLETE
+Night Loop:
+	- User interface stuff
+	- scaling difficulty - COMPLETE
