@@ -1,4 +1,10 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Dog","order":1,"path":"folders/Sounds/Dog.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"snd_dog_bark_3","order":2,"path":"sounds/snd_dog_bark_3/snd_dog_bark_3.yy",},
+    {"name":"snd_dog_bark_2","order":1,"path":"sounds/snd_dog_bark_2/snd_dog_bark_2.yy",},
+    {"name":"snd_dog_bark_4","order":3,"path":"sounds/snd_dog_bark_4/snd_dog_bark_4.yy",},
+  ],
 }
