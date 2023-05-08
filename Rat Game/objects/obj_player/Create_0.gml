@@ -17,3 +17,5 @@ currentHP = maxHP
 blinkBlendNormal = true
 //cam = camera_create()
 //view_set_camera(0, cam)
+
+show_debug_message(obj_manager.difficulty)

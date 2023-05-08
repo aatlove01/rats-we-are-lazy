@@ -16,10 +16,10 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 		nights_survived = -1
 	}
 	nights_survived++
-	if max_difficulty < 10 difficulty++
+	if difficulty < max_difficulty difficulty++
 	{
 	room_goto(rm_mainTester)
-	alarm[0] = 100//1800
+	alarm[0] = garbage_pickup_time
 	}
 }
 
