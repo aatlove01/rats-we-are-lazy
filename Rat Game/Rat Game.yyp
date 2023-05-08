@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"DeadRat","path":"sprites/DeadRat/DeadRat.yy",},},
@@ -62,7 +62,9 @@
     {"id":{"name":"obj_testMap","path":"objects/obj_testMap/obj_testMap.yy",},},
     {"id":{"name":"person_3","path":"sprites/person_3/person_3.yy",},},
     {"id":{"name":"Map","path":"sprites/Map/Map.yy",},},
+    {"id":{"name":"snd_player_damage_1","path":"sounds/snd_player_damage_1/snd_player_damage_1.yy",},},
     {"id":{"name":"obj_dog2","path":"objects/obj_dog2/obj_dog2.yy",},},
+    {"id":{"name":"snd_player_damage_2","path":"sounds/snd_player_damage_2/snd_player_damage_2.yy",},},
     {"id":{"name":"TrashbagDestroyed","path":"sprites/TrashbagDestroyed/TrashbagDestroyed.yy",},},
     {"id":{"name":"DashingRat","path":"sprites/DashingRat/DashingRat.yy",},},
     {"id":{"name":"Car_3","path":"sprites/Car_3/Car_3.yy",},},

@@ -5,15 +5,20 @@ dt = delta_time / 100000
 if(isHit){
 	isHit = false
 	if isInvulnerable == false{
+		random_sound = irandom_range(1,2)
+		random_pitch = random_range(0.75,1.1)
+		if random_sound == 1 audio_play_sound(snd_player_damage_1, 0, false, 1, 0, random_pitch)
+		else if random_sound == 2 audio_play_sound(snd_player_damage_2, 0, false, 1, 0, random_pitch)
 		currentHP--
 		isInvulnerable = true
 		alarm[1] = iFrames
 	}
 }
-if(currentHP <= 0){
-	sprite = DeadRat
+if(currentHP <= 0) && playerDeathTimer == false{
+	playerDeathTimer = true
 	alarm[0] = 180
-	return
+	moveSpeed = 0
+	turnSpeed = 0
 }
 
 #region Player Movement

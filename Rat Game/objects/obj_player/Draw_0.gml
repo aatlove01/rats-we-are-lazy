@@ -10,3 +10,7 @@ if isInvulnerable = true{
 	}
 }
 draw_sprite_ext(sprite, int64(spriteIdx) % image_number, x, y, 1,1, directionFacing, tint, 1);
+
+if(currentHP <= 0){
+	sprite = DeadRat
+}

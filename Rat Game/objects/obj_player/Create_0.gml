@@ -7,14 +7,13 @@ sprite = ratAnimated
 isHit = false
 isInvulnerable = false
 iFrames = 120
-iFrameCounter = iFrames
 spriteIdx = 0
 dashingTimer = 0;
 dashDuration = 3;
 dashDelay = 3;
 maxHP = 5
 currentHP = maxHP
-blinkBlendNormal = true
+playerDeathTimer = false
 
 with (obj_manager) {
 	reserves += food_gathered
