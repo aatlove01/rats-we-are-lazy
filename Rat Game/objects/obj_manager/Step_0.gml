@@ -14,10 +14,7 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 {
 	if room == rm_start 
 	{
-		difficulty = 0
-		food_gathered = 0
-		reserves = 0
-		nights_survived = -1
+		
 	}
 	nights_survived++
 	if difficulty < max_difficulty difficulty++
@@ -27,6 +24,10 @@ if (room == rm_start || room == rm_night_results) && keyboard_check_pressed(vk_s
 		room_goto(rm_game_over)
 	}else {
 		room_goto(rm_CityFinal)
+		difficulty = 0
+		food_gathered = 0
+		reserves = 0
+		nights_survived = -1
 		alarm[0] = garbage_pickup_time
 	}
 }
